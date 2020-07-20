@@ -1,1 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2020-07-20T17:05:49.745Z" agent="5.0 (Windows)" version="13.4.9" etag="Ick9OXSNQ2fB2hHxOHvn" type="github"><diagram id="qVBYgpYq_4XXhMKLkPqN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-07-20T22:05:00.935Z" agent="5.0 (Windows)" etag="jmdT3Ez2XUQ_7RzQor7n" version="13.4.9" type="github">
+  <diagram id="qVBYgpYq_4XXhMKLkPqN" name="Page-1">
+    <mxGraphModel dx="677" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C_DIMCQLM2-YYPk5gGbD-1" value="Usuário" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C_DIMCQLM2-YYPk5gGbD-2" value="&lt;div&gt;Estação de Trabalho&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;NO0002394782&lt;/div&gt;&lt;div&gt;MI00287342&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="560" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C_DIMCQLM2-YYPk5gGbD-7" value="&lt;div&gt;Será o campo COD_APLICACAO_SOFTWARE do formulário IC_FORM_LICENCA.&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="C_DIMCQLM2-YYPk5gGbD-3" target="C_DIMCQLM2-YYPk5gGbD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C_DIMCQLM2-YYPk5gGbD-3" value="&lt;div&gt;Licença&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;LS00023872&lt;br&gt;&lt;/div&gt;&lt;div&gt;GE000287342&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="400" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C_DIMCQLM2-YYPk5gGbD-4" value="&lt;div&gt;Aplicação&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5W67 (Visio 2013)&lt;br&gt;&lt;/div&gt;&lt;div&gt;AUIY (Project 2016)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C_DIMCQLM2-YYPk5gGbD-5" value="Será o campo Usuário (primário)." style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="C_DIMCQLM2-YYPk5gGbD-1">
+          <mxGeometry x="-0.0154" y="11" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="460" as="sourcePoint" />
+            <mxPoint x="400" y="410" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_DIMCQLM2-YYPk5gGbD-6" value="Será uma relação de código LICENCA_SOFTWARE" style="endArrow=classic;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="C_DIMCQLM2-YYPk5gGbD-2" target="C_DIMCQLM2-YYPk5gGbD-3">
+          <mxGeometry x="-0.884" y="-36" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="470" as="sourcePoint" />
+            <mxPoint x="520" y="420" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
